@@ -37,6 +37,13 @@
 
     </LinearLayout>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEXT QUESTION"
+        android:id="@+id/nextButton"
+        android:textSize="32sp"
+        />
 
     <Button
         android:layout_width="wrap_content"
