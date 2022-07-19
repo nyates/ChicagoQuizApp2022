@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ChicagoQuizApp2022</string>
+    <string name="q1text">Chicago is home to the Red Sox baseball team.</string>
+    <string name="q2text">Chicago is home to the Willis Tower.</string>
+    <string name="q3text">CSTA Conference 2022 was held in Chicago.</string>
+    <string name="trueBtnTxt">TRUE</string>
 </resources>

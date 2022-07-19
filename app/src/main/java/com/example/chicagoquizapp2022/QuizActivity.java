@@ -33,9 +33,9 @@ public class QuizActivity extends AppCompatActivity {
         nextBtn = (Button) findViewById(R.id.nextButton);
         scoreBtn = (Button) findViewById(R.id.scoreButton);
         score = 0;
-        q1 = new Question("Chicago is home to the Red Sox baseball team.", false);
-        q2 = new Question("Chicago is home to the Willis Tower.", true);
-        q3 = new Question("CSTA Conference 2022 was held in Chicago.", true);
+        q1 = new Question(getString(R.string.q1text), false);
+        q2 = new Question(getString(R.string.q2text), true);
+        q3 = new Question(getString(R.string.q3text), true);
         q4 = new Question("The tallest building in the world is in Chicago.", false);
         q5 = new Question("Chicago's transit system is called \'the El\'.", true);
         questions = new Question[] {q1, q2, q3, q4, q5};
